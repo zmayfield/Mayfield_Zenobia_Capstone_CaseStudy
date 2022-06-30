@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Search Function"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.568">
+    <properties></properties>
+
+
+
+            <testcase
+                name="tc0009_search_with_blank_search_field_test"
+                time="2.239"
+                classname="com.ecomm.alexandnova.zenobiamayfield.testcases.SearchProductTest">
+            </testcase>
+            <testcase
+                name="tc0008_search_products_test"
+                time="5.329"
+                classname="com.ecomm.alexandnova.zenobiamayfield.testcases.SearchProductTest">
+            </testcase>
+</testsuite>

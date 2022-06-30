@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Zenobia Alex and Nova Test Automation Suit">
+
+    <!--<?xml version="1.0" encoding="UTF-8"?>-->
+    <!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+    <!--<suite name="suite">-->
+
+    <test name="Test Registration" verbose="2" enabled="true">
+        <classes>
+            <class name="com.ecomm.alexandnova.zenobiamayfield.testcases.RegistrationPositiveTest"></class>
+        </classes>
+    </test>
+    <test name="Test Negative Registration" verbose="2" enabled="true">
+        <classes>
+            <class name="com.ecomm.alexandnova.zenobiamayfield.testcases.RegistrationNegativeTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test Login Successful Test" verbose="2" enabled="true">
+        <classes>
+            <class name="com.ecomm.alexandnova.zenobiamayfield.testcases.LoginPositiveTest"></class>
+        </classes>
+    </test>
+    <test name="Test Invalid Login" verbose="2" enabled="true">
+        <classes>
+            <class name="com.ecomm.alexandnova.zenobiamayfield.testcases.LoginNegativeTest"></class>
+        </classes>
+    </test>
+    <test name="Test Search Function" verbose="2" enabled="true">
+        <classes>
+            <class name="com.ecomm.alexandnova.zenobiamayfield.testcases.SearchProductTest"></class>
+        </classes>
+    </test>
+    <test name="Test Adding products to cart" verbose="2" enabled="true">
+        <classes>
+            <class name="com.ecomm.alexandnova.zenobiamayfield.testcases.AddToCartTest"></class>
+        </classes>
+    </test>
+    <test name="Test Checkout and Payment" verbose="2" enabled="true">
+        <classes>
+            <class name="com.ecomm.alexandnova.zenobiamayfield.testcases.PaymentTest"></class>
+        </classes>
+    </test>
+</suite>
